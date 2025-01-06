@@ -1,101 +1,152 @@
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
+import pic from '../public/images/pexels-cottonbro-10677505.jpg';
+import girl from '../public/images/stage performance 3.png';
+import poster from '../public/images/xftghstd.png';
+import additionalImage1 from '../public/images/stage performance 2.png'; 
+import additionalImage2 from '../public/images/slavvo.jpg'; 
+import additionalImage3 from '../public/images/_DSC2826-Enhanced-NR+(1)-min.png';
 
-export default function Home() {
+
+const Home = () => {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="flex flex-col min-h-screen bg-[#f8f8f1] text-gray-900 px-2 sm:px-4 pt-[70px] md:pt-[80px]">
+      
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+      {/* Title Section */}
+      <div className="mb-4 sm:mb-6 md:mb-8 w-full">
+        <h1 className="text-[17vw] lg:text-[20vw] font-bold text-center mt-[-50px] lg:mt-[-100px] mb-[-40px] lg:mb-[-60px] font-audiowide ">SLAWO.</h1>
+        <h2 className="text-[4vw] sm:text-[3vw] font-semibold text-right mr-2 sm:mr-12 mb-[-10px] font-audiowide">SOUL & REBELLION.</h2>
+      </div>
+
+      {/* First Image and Text Section */}
+      <div className="flex flex-col md:flex-row w-full lg:mb-8 ">
+        <div className="relative w-full md:w-2/4 h-[500px] md:h-[700px] flex items-end md:ml-9 mb-4 lg:mb-0">
+          <Image 
+            src={pic} 
+            alt="Nature" 
+            layout="fill" 
+            className="object-cover" 
+          />
+        </div>
+        <div className="flex flex-col justify-end w-full md:w-2/4 md:pl-4 pl-2 h-[400px] md:h-[700px] ml-0 lg:ml-4">
+          <p style={{ letterSpacing: '0.19em', lineHeight: '2.8' }} className="lg:text-sm text-sm lg:mb-2 font-merriweather">
+            mide johnson is a rap, jazz, and neo-soul artist with an eye for provocation and a tongue for poetry. his elite lyricism, emotional relatability, and conceptual vision positions him as a breath of fresh air. born in ibadan, nigeria, and groomed in lagos and london, mide and his team of part-time eccentrics are hard at work using sound, words, and graphic visuals to tell the stories of everyday people for his debut album, “slavvo”.
+          </p>
+          <a href="#" className="font-merriweather text-xs sm:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
+              <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+            </svg>
+            <span className='font-audiowide'> about mide</span>
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+      </div>
+
+      <hr className='mb-3 w-full'/>
+
+      {/* Second Paragraph and Image Section */}
+      <div className="flex flex-col md:flex-row w-full mb-6 lg:mb-8 justify-between">
+        <div className="flex flex-col justify-center w-full md:w-[50%] lg:pl-32 pr-4 lg:h-[500px] h-[500px] ">
+          <h2 className="md:text-2xl text-lg md:mb-9 font-bold text-center font-audiowide md:mt-18">“SOUL & SOIR” : JAN 16 2025</h2>
+          <p style={{ letterSpacing: '0.19em', lineHeight: '1.9' }} className="md:text-base text-xl md:mb-2 mb-4 font-merriweather">
+            join us for an evening of soul, rhythm, nostalgia, friendship, and emotion. the “Soul and Soir” live concert will be headlined by Midé Johnson and features iconic performances from Rania Yasmine, Emerald, Tanaparis, and Marina Santos. Portia, a comedienne and incredible host, will take the stage to light up the audience as she guides them through the live renditions. tickets are available for 5 CHF in the link below and 10 CHF at the concert entrance.
+          </p>
+          <a href="#" className="font-merriweather text-xs sm:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
+              <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+            </svg>
+            <span className='font-audiowide'> buy your tickets now</span>
+          </a>
+        </div>
+        <div className="relative w-[full] md:w-[30%] lg:h-[500px] h-[400px] flex items-end border border-black">
+          <Image 
+            src={girl} 
+            alt="Concert" 
+            layout="fill" 
+            className="object-cover" 
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+        </div>
+      </div>
+      <div className="relative w-full lg:w-[50%] h-[600px] mb-8 mr-auto">
+        <Image 
+          src={poster} 
+          alt="Concert Poster" 
+          layout="fill" 
+          className="object-cover" 
+        />
+      </div>
+
+      <div className="mb-8 flex flex-row md:flex-col">
+        <div className="relative w-[35%] h-[500px] mb-4 ml-auto"> 
+          <Image 
+            src={additionalImage1} 
+            alt="Step Image 1" 
+            layout="fill" 
+            className="object-cover" 
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+        </div>
+        <div className="relative w-[35%] h-[480px] mb-4 mx-auto lg:-mt-96 lg:mb-10"> 
+          <Image 
+            src={additionalImage2} 
+            alt="Step Image 2" 
+            layout="fill" 
+            className="object-cover" 
           />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+        <div className="relative w-[35%] h-[450px] mr-auto lg:-mt-96 lg:mb-10"> 
+          <Image 
+            src={additionalImage3} 
+            alt="Step Image 3" 
+            layout="fill" 
+            className="object-cover" 
+          />
+        </div>
+        <hr/>
+      </div>
+      <div className="flex flex-col md:flex-row w-full">
+        {/* Left Column with Text */}
+        <div className="md:w-1/2 flex flex-col justify-start p-8">
+          <h1 className="text-5xl font-bold mb-4 font-audiowide">SLAWO (EARLY ACCESS)</h1>
+          <h4 style={{ letterSpacing: '0.19em', lineHeight: '1.9' }} className="text-3xl font-semibold mb-4 font-merriweather">NOT JUST AN ALBUM. AN EXPERIENCE. FOR ALL IMMIGRANTS: LEGAL, ILLEGAL & LETHAL.</h4>
+          <a href="#" className="font-merriweather text-xs sm:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
+              <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+            </svg>
+            <span className='font-audiowide'> view exclusive tracklist & features</span>
+          </a>
+        </div>
+
+        {/* Right Column with Image */}
+        <div className="md:w-1/2 relative h-[400px] sm:h-[500px] md:h-[700px]">
+          <Image 
+            src={pic} 
+            alt="Your Description" 
+            layout="fill" 
+            className="object-cover" 
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row w-full lg:mb-8 justify-around">
+        <div className="relative w-full md:w-2/4 h-[500px] md:h-[700px] flex items-end md:ml-20">
+          <Image 
+            src={pic} 
+            alt="Nature" 
+            layout="fill" 
+            className="object-cover" 
+          />
+        </div>
+        <div className="relative w-full md:w-2/4 h-[500px] md:h-[700px] flex items-end md:ml-20">
+          <Image 
+            src={pic} 
+            alt="Nature" 
+            layout="fill" 
+            className="object-cover" 
+          />
+        </div>
+      </div>
     </div>
   );
 }
+
+export default Home;

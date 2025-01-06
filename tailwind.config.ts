@@ -8,9 +8,10 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        'rubik': ['Rubik', 'sans-serif'], 
+        'merriweather': ['Merriweather', 'serif'],
+        'audiowide': ['Audiowide', 'sans-serif'], 
       },
     },
   },
