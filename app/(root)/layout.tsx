@@ -1,20 +1,16 @@
-import NavBar from '@/components/NavBar'
-import React from 'react'
-import Home from '../page'
+// app/layout.js
+import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
+import './globals.css';
 
-const layout = () => {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
-        <main className="font-work-sans">
-            <NavBar />
-
-            <Home />
-
-            <Footer />
-        </main>
-    </div>
-  )
+    <html lang="en">
+      <body>
+        <NavBar />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
 }
-
-export default layout

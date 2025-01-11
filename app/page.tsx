@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link'; 
 import pic from '../public/images/pexels-cottonbro-10677505.jpg';
 import girl from '../public/images/stage performance 3.png';
 import poster from '../public/images/xftghstd.png';
@@ -9,13 +10,17 @@ import additionalImage3 from '../public/images/stage performance 3.png';
 import slovvo from '../public/images/slavvo.jpg';
 import tree from '../public/images/tree.jpg';
 import mic from '../public/images/mic.jpg';
-// import stage from '../public/images/stage.jpg';
+import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
+
+
+
 
 
 const Home = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#f7f7f4] text-gray-900 px-2 sm:px-4 pt-[70px] md:pt-[80px]">
-      
+      <NavBar />
 
       {/* Title Section */}
       <div className="mb-4 sm:mb-6 md:mb-8 w-full">
@@ -113,13 +118,13 @@ const Home = () => {
         <div className="md:w-1/2 flex flex-col justify-start p-8">
           <h1 className="lg:text-xl font-semibold lg:mb-10 mb-4 font-merriweather text-base">SLAVVO (EARLY ACCESS)</h1>
           <h4 style={{ letterSpacing: '0.19em', lineHeight: '1.9' }} className="lg:text-4xl text-xl font-bold mb-4 font-merriweather">NOT JUST AN ALBUM. AN EXPERIENCE. FOR ALL IMMIGRANTS: LEGAL, ILLEGAL & LETHAL.</h4>
-          <a href="#" className="font-merriweather text-xs sm:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit">
+          <Link href="/Tracklist" className="font-merriweather text-xs sm:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
               <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
             </svg>
             <span className='font-audiowide'> view exclusive track list & features</span>
-          </a>
-        </div>
+          </Link>
+          </div>
 
         {/* Right Column with Image */}
         <div className="md:w-1/2 relative h-[400px] sm:h-[500px] md:h-[700px]">
@@ -150,6 +155,7 @@ const Home = () => {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
