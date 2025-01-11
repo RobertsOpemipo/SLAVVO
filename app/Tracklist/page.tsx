@@ -15,7 +15,7 @@ const tracks = [
 ];
 
 const TrackList = () => {
-  const [hoveredTrack, setHoveredTrack] = useState(null);
+  const [hoveredTrack, setHoveredTrack] = useState<string | null>(null); // Specify the type here
 
   return (
     <div className="flex flex-col h-screen text-white bg-black md:flex-row">
