@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image'; // Import the Image component
 
 const tracks = [
   { title: 'intro', image: '/images/_DSC2826-Enhanced-NR+(1)-min.png' },
@@ -15,16 +16,18 @@ const tracks = [
 ];
 
 const TrackList = () => {
-  const [hoveredTrack, setHoveredTrack] = useState<string | null>(null); // Specify the type here
+  const [hoveredTrack, setHoveredTrack] = useState<string | null>(null);
 
   return (
     <div className="flex flex-col h-screen text-white bg-black md:flex-row">
       <div className="w-full md:w-1/2 flex justify-center items-center">
         {hoveredTrack && (
-          <img
+          <Image
             src={hoveredTrack}
             alt="Track Image"
-            className="hidden md:block w-64 h-64 object-cover"
+            width={256} 
+            height={256} 
+            className="hidden md:block object-cover"
           />
         )}
       </div>
