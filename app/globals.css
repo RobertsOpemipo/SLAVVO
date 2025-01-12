@@ -37,3 +37,24 @@
   font-style: normal;
   src: url('https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNpXw.ttf') format('truetype'); /* Example URL, adjust as needed */
 }
+
+@font-face {
+  font-family: 'Cubao Free Wide';
+  src: url('/fonts/FontsFree-Net-Cubao_Free_Wide.tff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.tff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.tff') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

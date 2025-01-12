@@ -12,6 +12,8 @@ export default {
         'rubik': ['Rubik', 'sans-serif'], 
         'merriweather': ['Merriweather', 'serif'],
         'audiowide': ['Audiowide', 'sans-serif'], 
+        'cubao': ['Cubao Free Wide', 'sans-serif'],
+        'glacial': ['Glacial Indifference', 'sans-serif'],
       },
       letterSpacing: {
         tight: '0.1em',
