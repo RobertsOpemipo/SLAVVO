@@ -26,16 +26,16 @@ const TrackList = () => {
         )}
       </div>
       <div className="w-full md:w-1/2 p-4 h-screen">
-        <h1 className="font-audiowide text-2xl md:text-7xl mb-10">Exclusive Track List</h1>
+        <h1 className="font-cubao text-2xl md:text-7xl mb-10">Exclusive Track List</h1>
         <ul className="list-none">
           {tracks.map((track, index) => (
             <li
               key={index}
-              className="cursor-pointer transition-transform transform hover:scale-105 mb-8 font-merriweather"
+              className="cursor-pointer transition-transform transform hover:scale-105 mb-8 font-glacial"
               onMouseEnter={() => setHoveredTrack(track.image)}
               onMouseLeave={() => setHoveredTrack(null)}
             >
-              <h2 className="text-lg md:text-4xl font-merriweather">{track.title}</h2>
+              <h2 className="text-lg md:text-4xl font-glacial">{track.title}</h2>
             </li>
           ))}
         </ul>
