@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
 
-      <hr className="lg:mb-3 mt-28 w-full border-t-4 border-white"/>
+      <hr className="lg:mb-5 mt-28 w-full border-t-2 border-white"/>
 
       {/* Second Paragraph and Image Section */}
       <div className="flex flex-col md:flex-row w-full mb-6 lg:mb-8 justify-between">
