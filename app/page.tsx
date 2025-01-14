@@ -3,14 +3,11 @@ import Image from 'next/image';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import pic from '../public/images/pexels-cottonbro-10677505.jpg';
-import girl from '../public/images/stage performance 3.png';
 import poster from '../public/images/soul & soir [Final].png';
 import additionalImage1 from '../public/images/stage performance 2.png'; 
 import additionalImage2 from '../public/images/stage performance.png'; 
 import additionalImage3 from '../public/images/stage performance 3.png';
-import slovvo from '../public/images/slavvo.jpg';
-import tree from '../public/images/tree.jpg';
-import mic from '../public/images/mic.jpg';
+
 
 const Home = () => {
   return (
