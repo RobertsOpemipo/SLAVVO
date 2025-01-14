@@ -9,11 +9,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'rubik': ['Rubik', 'sans-serif'], 
-        'merriweather': ['Merriweather', 'serif'],
-        'audiowide': ['Audiowide', 'sans-serif'], 
-        'cubao': ['Cubao Free Wide', 'sans-serif'],
-        'glacial': ['Glacial Indifference', 'sans-serif'],
+        'caveat': ['Caveat', 'cursive'],
+        'zen-dots': ['Zen Dots', 'sans-serif'], // Corrected
+        'bad-script': ['Bad Script', 'cursive'],
+        'climate-crisis': ['Climate Crisis', 'sans-serif'], // Corrected
       },
       letterSpacing: {
         tight: '0.1em',

@@ -1,60 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Trykker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* Google Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
-
-
+/* Tailwind CSS Directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Font Faces */
 
 @font-face {
-  font-family: 'Rubik Vinyl';
-  src: url('https://fonts.gstatic.com/s/rubikvinyl/v1/iJWABXKIfDnIV4mQ5BfjvUXe.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Zen Dots';
   font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/zendots/v12/XRXX3ICfm00IGoesQeaE.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Audiowide';
-  src: url('https://fonts.gstatic.com/s/audiowide/v20/l7gdbjpo0cum0ckerWCtkQ.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Climate Crisis';
   font-style: normal;
-}
-@font-face {
-  font-family: 'Merriweather';
   font-weight: 400;
-  font-style: normal;
-  src: url('https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5Oew.ttf') format('truetype'); /* Example URL, adjust as needed */
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/climatecrisis/v8/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6jQ.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Caveat';
+  font-weight: 400;
+  font-style: normal;
+  src: url('https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SII.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-weight: 500;
+  font-style: normal;
+  src: url('https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SII.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-weight: 600;
+  font-style: normal;
+  src: url('https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SII.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Caveat';
   font-weight: 700;
   font-style: normal;
-  src: url('https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNpXw.ttf') format('truetype'); /* Example URL, adjust as needed */
+  src: url('https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SII.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Cubao Free Wide';
-  src: url('/fonts/FontsFree-Net-Cubao_Free_Wide.tff') format('truetype');
-  font-weight: normal;
+  font-family: 'Bad Script';
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'Glacial Indifference';
-  src: url('/fonts/GlacialIndifference-Regular.tff') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Glacial Indifference';
-  src: url('/fonts/GlacialIndifference-Bold.tff') format('truetype');
-  font-weight: bold;
-  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/badscript/v17/6NUT8F6PJgbFWQn47_x7lOw.ttf') format('truetype');
 }
