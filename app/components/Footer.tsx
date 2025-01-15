@@ -38,21 +38,21 @@ const Footer = () => {
     };*/
 
     return (
-        <footer className="flex flex-col items-center bg-white text-black -mt-1 lg:-mt-5 p-8">
+        <footer className="flex flex-col items-center bg-black text-white  -mt-1 lg:-mt-5 p-8">
             <div className="flex flex-col items-center mb-8">
-                <h1 className="text-5xl font-bold tracking-wide font-zen-dots text-center">SLAVVO</h1>
+                <h1 className="lg:text-8xl text-5xl font-bold tracking-wide font-zen-dots text-center">SLAVVO</h1>
             </div>
 
             <div className="flex flex-col sm:flex-row justify-around items-center w-full mb-8">
-                <a href="https://www.instagram.com/midethemagic/" className="flex items-center justify-center text-black text-lg space-x-2 p-2 rounded-md hover:bg-black hover:text-white transition-colors">
+                <a href="https://www.instagram.com/midethemagic/" className="flex items-center justify-center text-lg space-x-2 p-2 rounded-md hover:bg-white hover:text-black transition-colors">
                     <FaInstagram />
                     <span>Instagram</span>
                 </a>
-                <a href="https://x.com/midethemagic" className="flex items-center justify-center text-black text-lg space-x-2 p-2 rounded-md hover:bg-black hover:text-white transition-colors">
+                <a href="https://x.com/midethemagic" className="flex items-center justify-center  text-lg space-x-2 p-2 rounded-md hover:bg-white hover:text-black transition-colors">
                     <FaTwitter />
                     <span>Twitter</span>
                 </a>
-                <a href="https://www.tiktok.com/@midethemagic" className="flex items-center justify-center text-black text-lg space-x-2 p-2 rounded-md hover:bg-black hover:text-white transition-colors">
+                <a href="https://www.tiktok.com/@midethemagic" className="flex items-center justify-center text-lg space-x-2 p-2 rounded-md hover:bg-white hover:text-black transition-colors">
                     <FaTiktok />
                     <span>TikTok</span>
                 </a>
