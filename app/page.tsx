@@ -43,7 +43,7 @@ const Home = () => {
           </div>
 
           <div className="relative flex-1 lg:p-6 font-lora w-full">
-            <div className="h-[1100px] md:h-[550px] flex flex-col mb-2 lg:-mb-0 justify-stretch">
+            <div className="h-[1000px] lg:h-[550px] flex flex-col mb-2 lg:-mb-0 justify-stretch">
               <p className="lg:text-sm text-xs lg:mb-0 mb-4 px-4 tracking-normal leading-loose lg:tracking-wide lg:leading-relaxed text-justify">
                 The Slavvo (Pre-Album) is a compelling four-track compilation that delves into themes of identity, 
                 the quest for belonging, love, and the resilience of survival through the lens of an immigrant. 
@@ -76,7 +76,7 @@ const Home = () => {
           </div>
 
           <div className="relative flex-1 lg:p-6 font-lora w-full">
-            <div className="h-[1100px] md:h-[600px] flex flex-col mb-2 lg:-mb-0 justify-stretch">
+            <div className="h-[1100px] lg:h-[600px] flex flex-col mb-2 lg:-mb-0 justify-stretch">
               <p className="lg:text-sm text-xs lg:mb-0 mb-4 px-4 tracking-normal leading-loose lg:tracking-wide lg:leading-relaxed text-justify">
                 The Slavvo (Pre-Album) is a compelling four-track compilation that delves into themes of identity, 
                 the quest for belonging, love, and the resilience of survival through the lens of an immigrant. 
