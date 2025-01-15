@@ -56,7 +56,7 @@ const Home = () => {
               </p>
               
               <a 
-                href="http://patreon.com/MideJohnson" 
+                href="https://midejohnson.bandcamp.com/album/slavvo-pre-album" 
                 className="font-lora text-xs lg:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
@@ -133,7 +133,7 @@ const Home = () => {
   </div>
 
   <div>
-    <div className="mt-0">
+    <div className="mt-20">
       <Image
         alt="Vivo Latam collage"
         fetchPriority="high"
@@ -154,7 +154,7 @@ const Home = () => {
           fetchPriority="high"
           width={480}
           height={356}
-          src="/images/Copy of _DSC2978-Enhanced-NR.jpg" // Update with actual image path
+          src="/images/Copy of _DSC2978-Enhanced-NR.jpg" 
           className="w-full nc-disable-selection"
           style={{ color: 'transparent' }}
         />
@@ -165,7 +165,7 @@ const Home = () => {
           fetchPriority="high"
           width={480}
           height={550}
-          src="/images/Copy of _DSC2979-Enhanced-NR.jpg" // Update with actual image path
+          src="/images/Copy of _DSC2979-Enhanced-NR.jpg" 
           className="w-full nc-disable-selection"
           style={{ color: 'transparent' }}
         />
@@ -174,13 +174,13 @@ const Home = () => {
   </div>
 
   <div>
-    <div className="mt-0">
+    <div className="mt-7">
       <Image
         alt="Vivo Latam collage"
         fetchPriority="high"
         width={483}
         height={812}
-        src="/images/Copy of _DSC3194-Enhanced-NR.jpg" // Update with actual image path
+        src="/images/Copy of _DSC3194-Enhanced-NR.jpg" 
         className="w-full nc-disable-selection"
         style={{ color: 'transparent' }}
       />
@@ -206,7 +206,7 @@ const Home = () => {
           fetchPriority="high"
           width={480}
           height={650}
-          src="/images/Copy of DSC3055-Enhanced-NR.jpg" // Update with actual image path
+          src="/images/Copy of DSC3055-Enhanced-NR.jpg" 
           className="w-full nc-disable-selection"
           style={{ color: 'transparent' }}
         />
@@ -215,13 +215,13 @@ const Home = () => {
   </div>
 
   <div>
-    <div className="mt-0">
+    <div className="mt-20">
       <Image
         alt="Vivo Latam collage"
         fetchPriority="high"
         width={483}
-        height={820}
-        src="/images/Copy of _DSC2979-Enhanced-NR.jpg" // Update with actual image path
+        height={1000}
+        src="/images/Copy of DSC3055-Enhanced-NR.jpg" 
         className="w-full nc-disable-selection"
         style={{ color: 'transparent' }}
       />

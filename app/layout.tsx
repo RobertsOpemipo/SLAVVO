@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SLAVVVO",
+  title: "the plantation.",
   description: "MIDE JOHNSON",
 };
 
