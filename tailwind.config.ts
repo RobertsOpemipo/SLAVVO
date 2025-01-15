@@ -10,9 +10,10 @@ export default {
     extend: {
       fontFamily: {
         'caveat': ['Caveat', 'cursive'],
-        'zen-dots': ['Zen Dots', 'sans-serif'], // Corrected
+        'zen-dots': ['Zen Dots', 'sans-serif'],
         'bad-script': ['Bad Script', 'cursive'],
-        'climate-crisis': ['Climate Crisis', 'sans-serif'], // Corrected
+        'climate-crisis': ['Climate Crisis', 'sans-serif'],
+        'lora': ['Lora', 'serif'], // Added Lora font
       },
       letterSpacing: {
         tight: '0.1em',

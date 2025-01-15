@@ -1,6 +1,6 @@
 // app/layout.js
-import NavBar from '@/components/NavBar';
-import Footer from '@/components/Footer';
+import NavBar from '@/app/components/NavBar';
+import Footer from '@/app/components/Footer';
 import './globals.css';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

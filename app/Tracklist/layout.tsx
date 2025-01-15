@@ -1,5 +1,5 @@
 // app/Tracklist/layout.js
-import TracklistHeader from '@/components/TracklistHeader';
+import TracklistHeader from '@/app/components/TracklistHeader';
 
 
 export default function TracklistLayout({ children }: { children: React.ReactNode }) {

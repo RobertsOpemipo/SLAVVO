@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import NavBar from '@/components/NavBar';
-import Footer from '@/components/Footer';
+import NavBar from '@/app/components/NavBar';
+import Footer from '@/app/components/Footer';
 import pic from '../public/images/pexels-cottonbro-10677505.jpg';
 import poster from '../public/images/soul & soir [Final].png';
 
@@ -22,12 +22,12 @@ const Home = () => {
         <div className="relative w-[250px] md:w-2/4 h-[500px] md:h-[700px] flex items-center justify-center mb-9 lg:mb-0">
           <Image src={pic} alt="Nature" layout="fill" className="object-cover" />
         </div>
-        <div className="flex flex-col md:w-2/4 md:pl-4 pl-2 h-[400px] md:h-[700px] justify-end">
+        <div className="flex flex-col md:w-2/4 md:pl-4 pl-2 h-[500px] md:h-[700px] justify-end">
           <h2 className="lg:text-[4vw] text-[6vw] font-semibold mb-[-10px] mt-10 font-zen-dots  ">SOUL & REBELLION.</h2>
-          <p className="lg:text-sm text-xs lg:mb-1 font-bad-script tracking-normal leading-loose lg:tracking-wide lg:leading-relaxed sm:tracking-tight sm:leading-normal">
+          <p className="lg:text-sm text-xs lg:mb-1 font-lora tracking-normal leading-loose lg:tracking-wide lg:leading-relaxed sm:tracking-tight sm:leading-normal">
             mide johnson is a rap, jazz, and neo-soul artist with an eye for provocation and a tongue for poetry. his elite lyricism, emotional relatability, and conceptual vision positions him as a breath of fresh air. born in ibadan, nigeria, and groomed in lagos and london, mide and his team of part-time eccentrics are hard at work using sound, words, and graphic visuals to tell the stories of everyday people for his debut album, “slavvo”.
           </p>
-          <a href="https://www.scribd.com/document/778378439/Slavvo-the-Culture-s-Unusual-Leader-pdf" className="font-bad-script text-xs lg:text-sm underline hover:bg-white hover:text-black p-1 transition duration-300 flex items-center w-fit">
+          <a href="https://www.scribd.com/document/778378439/Slavvo-the-Culture-s-Unusual-Leader-pdf" className="font-lora text-xs lg:text-sm underline hover:bg-white hover:text-black p-1 transition duration-300 flex items-center w-fit">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
               <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
             </svg>
@@ -43,7 +43,7 @@ const Home = () => {
   </div>
 
   
-      <div className="flex-1 p-6 font-bad-script ">
+      <div className="flex-1 p-6 font-lora ">
         <p className="text-base lg:text-base lg:mt-12 mb-4 px-4">
           The Slavvo (Pre-Album) is a compelling four-track compilation that delves into themes of identity, 
           the quest for belonging, love, and the resilience of survival through the lens of an immigrant. 
@@ -64,7 +64,7 @@ const Home = () => {
         <div className="flex  mt-6">
           <a 
             href="http://patreon.com/MideJohnson" 
-            className="font-bad-script text-xs lg:text-sm underline hover:bg-white hover:text-black p-1 transition duration-300 flex items-center w-fit"
+            className="font-lora text-xs lg:text-sm underline hover:bg-white hover:text-black p-1 transition duration-300 flex items-center w-fit"
           >
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
                   <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
@@ -83,7 +83,7 @@ const Home = () => {
         </div>
 
         
-            <div className="flex-1 p-6 font-bad-script text-justify">
+            <div className="flex-1 p-6 font-lora text-justify">
               <p className="text-sm lg:text-base lg:mt-12 mb-4 px-4 ">
                 The Slavvo (Pre-Album) is a compelling four-track compilation that delves into themes of identity, 
                 the quest for belonging, love, and the resilience of survival through the lens of an immigrant. 
@@ -102,7 +102,7 @@ const Home = () => {
               <div className="flex  mt-6">
                 <a 
               href="https://www.patreon.com/c/MideJohnson" 
-              className="font-merriweather text-xs sm:text-sm underline hover:bg-white hover:text-black p-1 transition duration-300 flex items-center w-fit"
+              className="font-lora text-xs sm:text-sm underline hover:bg-white hover:text-black p-1 transition duration-300 flex items-center w-fit"
             >
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
                 <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
@@ -204,7 +204,7 @@ const Home = () => {
                 alt="Vivo Latam collage"
                 fetchPriority="high"
                 width={480}
-                height={356}
+                height={456}
                 src="/images/Copy of _DSC3194-Enhanced-NR(1).jpg" // Update with actual image path
                 className="w-full nc-disable-selection"
                 style={{ color: 'transparent' }}
@@ -215,7 +215,7 @@ const Home = () => {
                 alt="Vivo Latam collage"
                 fetchPriority="high"
                 width={480}
-                height={550}
+                height={650}
                 src="/images/Copy of DSC3055-Enhanced-NR.jpg" // Update with actual image path
                 className="w-full nc-disable-selection"
                 style={{ color: 'transparent' }}
@@ -229,7 +229,7 @@ const Home = () => {
               alt="Vivo Latam collage"
               fetchPriority="high"
               width={483}
-              height={812}
+              height={820}
               src="/images/Copy of _DSC2979-Enhanced-NR.jpg" // Update with actual image path
               className="w-full nc-disable-selection"
               style={{ color: 'transparent' }}
