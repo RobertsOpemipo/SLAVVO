@@ -83,7 +83,7 @@ const Home = () => {
         </div>
 
         
-            <div className="flex-1 p-6 font-lora text-justify">
+            <div className="flex-1 p-6 font-lora">
               <p className="text-sm lg:text-base lg:mt-12 mb-4 px-4 ">
                 The Slavvo (Pre-Album) is a compelling four-track compilation that delves into themes of identity, 
                 the quest for belonging, love, and the resilience of survival through the lens of an immigrant. 
