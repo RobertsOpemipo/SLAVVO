@@ -4,9 +4,7 @@ import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import pic from '../public/images/pexels-cottonbro-10677505.jpg';
 import poster from '../public/images/soul & soir [Final].png';
-import additionalImage1 from '../public/images/stage performance 2.png'; 
-import additionalImage2 from '../public/images/stage performance.png'; 
-import additionalImage3 from '../public/images/stage performance 3.png';
+
 
 
 const Home = () => {
@@ -104,7 +102,7 @@ const Home = () => {
               <div className="flex  mt-6">
                 <a 
               href="https://www.patreon.com/c/MideJohnson" 
-              className="font-merriweather text-xs sm:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit"
+              className="font-merriweather text-xs sm:text-sm underline hover:bg-white hover:text-black p-1 transition duration-300 flex items-center w-fit"
             >
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
                 <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
@@ -120,65 +118,184 @@ const Home = () => {
         <Image src={poster} alt="Concert Poster" layout="fill" className="object-cover" />
       </div>
 
-      {/* Additional Images Section */}
-<div className="bg-black p-8">
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    
-    {/* Card 1 */}
-    <div className="relative overflow-hidden rounded-lg shadow-lg">
-      <div className="absolute inset-0">
-        <Image src={additionalImage1} alt="Step Image 1" layout="fill" className="object-cover transition-transform duration-300 hover:scale-110" />
+      <div className="p-6 grid grid-cols-6 gap-6">
+        <div>
+          <div className="grid grid-cols-1 gap-6">
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={356}
+                src="/images/Copy of _DSC2759-Enhanced-NR.jpg" // Update with actual image path
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={550}
+                src="/images/Copy of _DSC2826-Enhanced-NR.jpg" // Update with actual image path
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="mt-[5rem]">
+            <Image
+              alt="Vivo Latam collage"
+              fetchPriority="high"
+              width={483}
+              height={812}
+              src="/images/Copy of _DSC2881-Enhanced-NR.jpg" // Update with actual image path
+              className="w-full nc-disable-selection"
+              style={{ color: 'transparent' }}
+            />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-1 gap-6">
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={356}
+                src="/images/Copy of _DSC2978-Enhanced-NR.jpg" // Update with actual image path
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={550}
+                src="/images/Copy of _DSC2979-Enhanced-NR.jpg" // Update with actual image path
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="mt-[5rem]">
+            <Image
+              alt="Vivo Latam collage"
+              fetchPriority="high"
+              width={483}
+              height={812}
+              src="/images/Copy of _DSC3194-Enhanced-NR.jpg" // Update with actual image path
+              className="w-full nc-disable-selection"
+              style={{ color: 'transparent' }}
+            />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-1 gap-6">
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={356}
+                src="/images/Copy of _DSC3194-Enhanced-NR(1).jpg" // Update with actual image path
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={550}
+                src="/images/Copy of DSC3055-Enhanced-NR.jpg" // Update with actual image path
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="mt-[5rem]">
+            <Image
+              alt="Vivo Latam collage"
+              fetchPriority="high"
+              width={483}
+              height={812}
+              src="/images/Copy of _DSC2979-Enhanced-NR.jpg" // Update with actual image path
+              className="w-full nc-disable-selection"
+              style={{ color: 'transparent' }}
+            />
+          </div>
+        </div>
       </div>
-    </div>
 
-    {/* Card 2 */}
-    <div className="relative overflow-hidden rounded-lg shadow-lg">
-      <div className="absolute inset-0">
-        <Image src={additionalImage2} alt="Step Image 2" layout="fill" className="object-cover transition-transform duration-300 hover:scale-110" />
-      </div>
-    </div>
 
-    {/* Card 3 */}
-    <div className="relative overflow-hidden rounded-lg shadow-lg">
-      <div className="absolute inset-0">
-        <Image src={additionalImage3} alt="Step Image 3" layout="fill" className="object-cover transition-transform duration-300 hover:scale-110" />
-      </div>
-    </div>
 
-    {/* Card 4 */}
-    <div className="relative overflow-hidden rounded-lg shadow-lg">
-      <div className="absolute inset-0">
-        <Image src={additionalImage3} alt="Step Image 4" layout="fill" className="object-cover transition-transform duration-300 hover:scale-110" />
-      </div>
-    </div>
+      
+      <div className="relative w-full font-zen-dots">
+        <div className="flex flex-col items-center w-full p-6 bg-black rounded-lg shadow-md">
+          <h1 className="text-4xl lg:text-8xl font-bold text-white mb-9 text-center">Mide’s discography</h1>
+          
+          <div className="flex space-x-4 flex-wrap justify-center">
+            <a 
+              href="https://www.youtube.com/@midejohnson" 
+              className="bg-black text-white text-sm lg:text-md py-2 px-4 rounded shadow transition duration-300 hover:bg-white hover:text-black"
+            >
+              &gt; YOUTUBE
+            </a>
+            <a 
+              href="https://open.spotify.com/artist/7Clc8KPr7J1AEwsGkdiVU9" 
+              className="bg-black text-white text-sm lg:text-md py-2 px-4 rounded shadow transition duration-300 hover:bg-white hover:text-black"
+            >
+              &gt; SPOTIFY
+            </a>
+            <a 
+              href="https://music.apple.com/us/artist/mide-johnson/1550047601" 
+              className="bg-black text-white text-sm lg:text-md py-2 px-4 rounded shadow transition duration-300 hover:bg-white hover:text-black"
+            >
+              &gt; APPLE MUSIC
+            </a>
+            <a 
+              href="https://audiomack.com/thejohnson-1" 
+              className="bg-black text-white text-sm lg:text-md py-2 px-4 rounded shadow transition duration-300 hover:bg-white hover:text-black"
+            >
+              &gt; AUDIOMACK
+            </a>
+            <a 
+              href="http://patreon.com/MideJohnson" 
+              className="bg-black text-white text-sm lg:text-md py-2 px-4 rounded shadow transition duration-300 hover:bg-white hover:text-black"
+            >
+              &gt; PATRON
+            </a>
+            <a 
+              href="https://linktr.ee/midejohnson" 
+              className="bg-black text-white text-sm lg:text-md py-2 px-4 rounded shadow transition duration-300 hover:bg-white hover:text-black"
+            >
+              &gt; LINKTREE
+            </a>
+          </div>
+        </div>
 
-    {/* Card 5 */}
-    <div className="relative overflow-hidden rounded-lg shadow-lg">
-      <div className="absolute inset-0">
-        <Image src={additionalImage3} alt="Step Image 5" layout="fill" className="object-cover transition-transform duration-300 hover:scale-110" />
-      </div>
-    </div>
-
-    {/* Card 6 */}
-    <div className="relative overflow-hidden rounded-lg shadow-lg">
-      <div className="absolute inset-0">
-        <Image src={additionalImage3} alt="Step Image 6" layout="fill" className="object-cover transition-transform duration-300 hover:scale-110" />
-      </div>
-    </div>
-    
-  </div>
-</div>
-      <hr/>
-
-      {/* About Mide Section */}
-      <div className="flex flex-col items-center w-full md:mb-8 p-6 bg-[#fffbfb] rounded-lg shadow-md">
-        <h1 className="text-6xl lg:text-8xl font-bold text-black mb-4 text-center">ALL ABOUT MIDE</h1>
-        <a 
-          href="https://linktr.ee/midejohnson" 
-          className="bg-black text-white text-sm lg:text-md py-2 px-4 rounded shadow transition duration-300 hover:bg-gray-800"
+        {/* Wave SVG */}
+        <svg
+          className="w-full h-auto" // Responsive height
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
         >
-          Learn More
-        </a>
+          <path
+            fill="#fff" // Change the color if needed
+            d="M0,128L30,106.7C60,85,120,43,180,48C240,53,300,107,360,128C420,149,480,139,540,117.3C600,96,660,64,720,58.7C780,53,840,75,900,96C960,117,1020,139,1080,128C1140,117,1200,75,1260,53.3C1320,32,1380,64,1410,80L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320H0Z"
+          />
+        </svg>
       </div>
 
 
