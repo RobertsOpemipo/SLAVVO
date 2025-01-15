@@ -1,17 +1,10 @@
 "use client";
 
-import React, { useState } from 'react';
+import React from 'react';
 import { FaInstagram, FaTiktok, FaTwitter } from 'react-icons/fa';
 
-import mailchimp from "@mailchimp/mailchimp_marketing";
-
-mailchimp.setConfig({
-    apiKey: process.env.MAILCHIMP_API_KEY,
-    server: process.env.MAILCHIMP_API_SERVER,
-});
-
 const Footer = () => {
-    const [email, setEmail] = useState('');
+    /* const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
     const handleSubscribe = async (e: { preventDefault: () => void; }) => {
@@ -19,7 +12,7 @@ const Footer = () => {
         setMessage(''); 
 
         try {
-            const response = await fetch("../api/newsletter", {
+            const response = await fetch("../api/newsletter", { 
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -28,9 +21,9 @@ const Footer = () => {
             });
 
             if (!response.ok) {
-                const errorData = await response.text(); 
+                const errorData = await response.json(); 
                 console.error("Error response:", errorData);
-                setMessage("Something went wrong.");
+                setMessage("Something went wrong: " + errorData.message);
                 return;
             }
 
@@ -42,14 +35,12 @@ const Footer = () => {
             console.error("Error:", error);
             setMessage("An error occurred while subscribing.");
         }
-    };
+    };*/
 
     return (
         <footer className="flex flex-col items-center bg-white text-black -mt-1 lg:-mt-5 p-8">
             <div className="flex flex-col items-center mb-8">
                 <h1 className="text-5xl font-bold tracking-wide font-zen-dots text-center">SLAVVO</h1>
-                <p className="text-center mt-2">Inspired by light and driven by design,</p>
-                <p className="text-center">Let’s work together!</p>
             </div>
 
             <div className="flex flex-col sm:flex-row justify-around items-center w-full mb-8">
@@ -67,8 +58,8 @@ const Footer = () => {
                 </a>
             </div>
 
-            {/* Newsletter Section */}
-            <div className="flex flex-col items-center text-center mb-8">
+            
+            {/*<div className="flex flex-col items-center text-center mb-8">
                 <h2 className="text-xl font-bold mb-2">Subscribe to our Newsletter</h2>
                 <p className="text-sm mb-4">Get the latest updates on our projects and offers.</p>
                 <form onSubmit={handleSubscribe} className="flex">
@@ -92,6 +83,7 @@ const Footer = () => {
                 <p className="text-sm">production@spotstudios.es</p>
                 <p className="text-sm">(+34) 930 046 720</p>
             </div>
+            */}
         </footer>
     );
 };
