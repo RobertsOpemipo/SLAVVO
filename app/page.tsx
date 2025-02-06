@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import NavBar from '@/app/components/NavBar';
 import Footer from '@/app/components/Footer';
-import pic from '../public/images/3.png';
+import pic from '../public/images/pexels-cottonbro-10677505.jpg';
 
 
 
