@@ -3,7 +3,7 @@ import Image from 'next/image';
 import NavBar from '@/app/components/NavBar';
 import Footer from '@/app/components/Footer';
 import pic from '../public/images/3.png';
-import poster from '../public/images/soul & soir [Final].png';
+
 
 
 
@@ -71,6 +71,57 @@ const Home = () => {
 
       <hr className="lg:mb-5 w-full border-t-2 border-black"/>
       
+      <div className="p-6 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+  <div className="relative h-64"> {/* Ensure height is set */}
+    <Image 
+      src="/images/_DSC2826-Enhanced-NR+(1)-min.png" 
+      alt="Gallery Image 1" 
+      layout="fill" 
+      className="object-cover rounded-lg shadow-md" 
+    />
+  </div>
+  <div className="relative h-64">
+    <Image 
+      src="/images/Copy of _DSC2979-Enhanced-NR.jpg" 
+      alt="Gallery Image 2" 
+      layout="fill" 
+      className="object-cover rounded-lg shadow-md" 
+    />
+  </div>
+  <div className="relative h-64">
+    <Image 
+      src="/images/slavvo3.jpg" 
+      alt="Gallery Image 3" 
+      layout="fill" 
+      className="object-cover rounded-lg shadow-md" 
+    />
+  </div>
+  <div className="relative h-64">
+    <Image 
+      src="/images/stage performance 4.png" 
+      alt="Gallery Image 4" 
+      layout="fill" 
+      className="object-cover rounded-lg shadow-md" 
+    />
+  </div>
+  <div className="relative h-64">
+    <Image 
+      src="/images/pexels-cottonbro-10677505.jpg" 
+      alt="Gallery Image 5" 
+      layout="fill" 
+      className="object-cover rounded-lg shadow-md" 
+    />
+  </div>
+  <div className="relative h-64">
+    <Image 
+      src="/images/xftghstd.png" 
+      alt="Gallery Image 6" 
+      layout="fill" 
+      className="object-cover rounded-lg shadow-md" 
+    />
+  </div>
+</div>
+
 
       <div className="p-6 grid grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-6">
         <div>
