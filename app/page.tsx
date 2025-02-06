@@ -35,199 +35,167 @@ const Home = () => {
           </a>
         </div>
       </div>
-<hr className="lg:mb-5 lg:mt-5 mt-5 w-full border-t-2 border-black" />
+      <hr className="lg:mb-5 lg:mt-5 mt-5 w-full border-t-2 border-black" />
       <div className="flex flex-col md:flex-row w-full mb-6 md:mb-0 lg:mt-10 mt-10">
   
-          <div className="flex-1 text-start md:text-left mb-4 md:mb-0 lg:mt-9">
-            <h1 className="text-2xl lg:text-4xl font-bold text-start font-zen-dots">SLAVVO (Pre-Album)</h1>
-          </div>
+        <div className="flex-1 text-start md:text-left mb-4 md:mb-0 lg:mt-9">
+          <h1 className="text-2xl lg:text-4xl font-bold text-start font-zen-dots mb-4">SLAVVO (Pre-Album)</h1>
+          <h2 className="text-2xl lg:text-4xl font-bold text-start font-zen-dots mb-6">FOR ALL IMMIGRANTS: LEGAL, ILLEGAL & LETHAL</h2>
+          <a 
+            href="https://midejohnson.bandcamp.com/album/slavvo-pre-album" 
+            className="font-lora text-xs lg:text-sm underline hover:bg-black hover:text-white p-2 transition duration-300 flex items-center w-fit"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
+              <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
+            </svg>
+            Listen to the pre-album
+          </a>
+        </div>
 
-          <div className="relative flex-1 lg:p-6 font-lora w-full">
-            <div className="h-[1000px] lg:h-[550px] flex flex-col mb-2 lg:-mb-0 justify-stretch">
-              <p className="lg:text-sm text-xs lg:mb-0 mb-4 px-4 tracking-normal leading-loose lg:tracking-wide lg:leading-relaxed text-justify">
-                The Slavvo (Pre-Album) is a compelling four-track compilation that delves into themes of identity, 
-                the quest for belonging, love, and the resilience of survival through the lens of an immigrant. 
-                While these narratives are not new—they have been expressed and reinterpreted across various art forms and genres— 
-                Slavvo offers a unique experience characterized by acute relatability, deeply emotional storytelling, 
-                and an unparalleled passion. This pre-album serves as a precursor to the forthcoming ten-track full-length album. 
-                Though it represents only a fraction of the complete work, it stands alone as a remarkable piece of artistry. 
-                It embodies an unfinished narrative; in the grand tapestry of our lives, our stories are never truly complete—we rewrite them each day. 
-                Experience this reggae, soul, jazz, and rap masterpiece exclusively through this link.
-              </p>
-              
-              <a 
-                href="https://midejohnson.bandcamp.com/album/slavvo-pre-album" 
-                className="font-lora text-xs lg:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
-                  <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
-                </svg>
-                Listen to the pre-album
-              </a>
+        <div className="relative flex-1 lg:p-6 font-lora w-full">
+          <div className="h-[1000px] lg:h-[500px] flex flex-col mb-2 justify-stretch">
+            
+            <div className="relative grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+              <div className="relative md:col-span-2">
+                <img src="/images/slavvo1.jpg" alt="Description 1" className="w-full h-auto object-cover shadow-md"/>
+              </div>
+              <div className="relative md:col-span-1 flex flex-col">
+                <img src="/images/slavvo2.png" alt="Description 2" className="w-full h-auto object-cover  shadow-md mb-4"/>
+                <img src="/images/slavvo3.png" alt="Description 3" className="w-full h-auto object-cover  shadow-md"/>
+              </div>
             </div>
+            
           </div>
         </div>
+      </div>
 
       <hr className="lg:mb-5 w-full border-t-2 border-black"/>
-      <div className="flex flex-col md:flex-row w-full mb-6 md:mb-6 lg:mt-10 mt-10">
-  
-          <div className="flex-1 text-start md:text-left mb-4 md:mb-0 lg:mt-9">
-            <h1 className="text-2xl lg:text-4xl font-bold text-start font-zen-dots">“SOUL & SOIR” : JAN 16 2025</h1>
-          </div>
+      
 
-          <div className="relative flex-1 lg:p-6 font-lora w-full">
-            <div className="h-[1100px] lg:h-[600px] flex flex-col mb-2 lg:-mb-0 justify-stretch">
-              <p className="lg:text-sm text-xs lg:mb-0 mb-4 px-4 tracking-normal leading-loose lg:tracking-wide lg:leading-relaxed text-justify">
-                The Slavvo (Pre-Album) is a compelling four-track compilation that delves into themes of identity, 
-                the quest for belonging, love, and the resilience of survival through the lens of an immigrant. 
-                While these narratives are not new—they have been expressed and reinterpreted across various art forms and genres— 
-                Slavvo offers a unique experience characterized by acute relatability, deeply emotional storytelling, 
-                and an unparalleled passion.Join us for a rare evening of soul, rhythm, nostalgia, friendship, and emotion. The “Soul and Soir” live concert will be headlined by Midé Johnson and features iconic performances from Rania Yasmine, Emerald, Tanaparis, Marina Santos and Raven. Portia, a comedienne and incredible host, will take the stage to light up the audience as she guides them through the live renditions. The event is co-organized by Village Du Soir and the Geneva Secretariat Interns Association. Tickets are available for 5 CHF online and 10 CHF at the concert entrance.
-              </p>
-              
-              <a 
-                href="https://www.patreon.com/c/MideJohnson" 
-                className="font-lora text-xs lg:text-sm underline hover:bg-black hover:text-white p-1 transition duration-300 flex items-center w-fit"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368" className="mr-1">
-                  <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
-                </svg>
-                buy your tickets now
-              </a>
+      <div className="p-6 grid grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-6">
+        <div>
+          <div className="grid grid-cols-1 gap-6">
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={356}
+                src="/images/Copy of _DSC2759-Enhanced-NR.jpg" 
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={550}
+                src="/images/Copy of _DSC2826-Enhanced-NR.jpg" 
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
             </div>
           </div>
         </div>
 
+        <div>
+          <div className="mt-20">
+            <Image
+              alt="Vivo Latam collage"
+              fetchPriority="high"
+              width={483}
+              height={812}
+              src="/images/Copy of _DSC2881-Enhanced-NR.jpg" 
+              className="w-full nc-disable-selection"
+              style={{ color: 'transparent' }}
+            />
+          </div>
+        </div>
 
-      {/* Concert Poster Section */}
-      <div className="relative w-full lg:w-[50%] h-[600px] mb-8 mr-auto">
-        <Image src={poster} alt="Concert Poster" layout="fill" className="object-cover" />
-      </div>
+        <div>
+          <div className="grid grid-cols-1 gap-6">
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={356}
+                src="/images/Copy of _DSC2978-Enhanced-NR.jpg" 
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={550}
+                src="/images/Copy of _DSC2979-Enhanced-NR.jpg" 
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+          </div>
+        </div>
 
-      <div className="p-6 grid grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-6">
-  <div>
-    <div className="grid grid-cols-1 gap-6">
-      <div>
-        <Image
-          alt="Vivo Latam collage"
-          fetchPriority="high"
-          width={480}
-          height={356}
-          src="/images/Copy of _DSC2759-Enhanced-NR.jpg" // Update with actual image path
-          className="w-full nc-disable-selection"
-          style={{ color: 'transparent' }}
-        />
-      </div>
-      <div>
-        <Image
-          alt="Vivo Latam collage"
-          fetchPriority="high"
-          width={480}
-          height={550}
-          src="/images/Copy of _DSC2826-Enhanced-NR.jpg" // Update with actual image path
-          className="w-full nc-disable-selection"
-          style={{ color: 'transparent' }}
-        />
-      </div>
-    </div>
-  </div>
+        <div>
+          <div className="mt-7">
+            <Image
+              alt="Vivo Latam collage"
+              fetchPriority="high"
+              width={483}
+              height={812}
+              src="/images/Copy of _DSC3194-Enhanced-NR.jpg" 
+              className="w-full nc-disable-selection"
+              style={{ color: 'transparent' }}
+            />
+          </div>
+        </div>
 
-  <div>
-    <div className="mt-20">
-      <Image
-        alt="Vivo Latam collage"
-        fetchPriority="high"
-        width={483}
-        height={812}
-        src="/images/Copy of _DSC2881-Enhanced-NR.jpg" // Update with actual image path
-        className="w-full nc-disable-selection"
-        style={{ color: 'transparent' }}
-      />
-    </div>
-  </div>
+        <div>
+          <div className="grid grid-cols-1 gap-6">
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={456}
+                src="/images/Copy of _DSC3194-Enhanced-NR(1).jpg" 
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+            <div>
+              <Image
+                alt="Vivo Latam collage"
+                fetchPriority="high"
+                width={480}
+                height={650}
+                src="/images/Copy of DSC3055-Enhanced-NR.jpg" 
+                className="w-full nc-disable-selection"
+                style={{ color: 'transparent' }}
+              />
+            </div>
+          </div>
+        </div>
 
-  <div>
-    <div className="grid grid-cols-1 gap-6">
-      <div>
-        <Image
-          alt="Vivo Latam collage"
-          fetchPriority="high"
-          width={480}
-          height={356}
-          src="/images/Copy of _DSC2978-Enhanced-NR.jpg" 
-          className="w-full nc-disable-selection"
-          style={{ color: 'transparent' }}
-        />
+        <div>
+          <div className="mt-20">
+            <Image
+              alt="Vivo Latam collage"
+              fetchPriority="high"
+              width={483}
+              height={1000}
+              src="/images/Copy of DSC3055-Enhanced-NR.jpg" 
+              className="w-full nc-disable-selection"
+              style={{ color: 'transparent' }}
+            />
+          </div>
+        </div>
       </div>
-      <div>
-        <Image
-          alt="Vivo Latam collage"
-          fetchPriority="high"
-          width={480}
-          height={550}
-          src="/images/Copy of _DSC2979-Enhanced-NR.jpg" 
-          className="w-full nc-disable-selection"
-          style={{ color: 'transparent' }}
-        />
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <div className="mt-7">
-      <Image
-        alt="Vivo Latam collage"
-        fetchPriority="high"
-        width={483}
-        height={812}
-        src="/images/Copy of _DSC3194-Enhanced-NR.jpg" 
-        className="w-full nc-disable-selection"
-        style={{ color: 'transparent' }}
-      />
-    </div>
-  </div>
-
-  <div>
-    <div className="grid grid-cols-1 gap-6">
-      <div>
-        <Image
-          alt="Vivo Latam collage"
-          fetchPriority="high"
-          width={480}
-          height={456}
-          src="/images/Copy of _DSC3194-Enhanced-NR(1).jpg" // Update with actual image path
-          className="w-full nc-disable-selection"
-          style={{ color: 'transparent' }}
-        />
-      </div>
-      <div>
-        <Image
-          alt="Vivo Latam collage"
-          fetchPriority="high"
-          width={480}
-          height={650}
-          src="/images/Copy of DSC3055-Enhanced-NR.jpg" 
-          className="w-full nc-disable-selection"
-          style={{ color: 'transparent' }}
-        />
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <div className="mt-20">
-      <Image
-        alt="Vivo Latam collage"
-        fetchPriority="high"
-        width={483}
-        height={1000}
-        src="/images/Copy of DSC3055-Enhanced-NR.jpg" 
-        className="w-full nc-disable-selection"
-        style={{ color: 'transparent' }}
-      />
-    </div>
-  </div>
-</div>
 
 
 
