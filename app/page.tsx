@@ -53,7 +53,7 @@ const Home = () => {
         </div>
 
         <div className="relative flex-1 lg:p-6 font-lora w-full">
-          <div className="h-[1000px] lg:h-[500px] flex flex-col mb-2 justify-stretch">
+          <div className="h-[1500px] lg:h-[500px] flex flex-col mb-2 justify-stretch">
             
             <div className="relative grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
               <div className="relative md:col-span-2">
