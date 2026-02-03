@@ -16,7 +16,7 @@
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "formik": "^2.4.6",
     "lodash": "^4.17.21",
-    "next": "^15.1.4",
+    "next": "15.1.11",
     "react": "^19.0.0",
     "react-confetti": "^6.2.2",
     "react-dom": "^19.0.0",
